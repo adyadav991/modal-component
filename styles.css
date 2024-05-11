@@ -1,0 +1,35 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-button {
+    background-color: cornflowerblue;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.modal-container {
+    display: none;
+    height: 200px;
+    width: 550px;
+    border: 0.5px solid;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 12px;
+}
+.modal-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.close {
+    cursor: pointer;
+    margin-left: 235px;
+    font-size: large;
+}
+.close:hover {
+    color: red;
+}
